@@ -1,4 +1,4 @@
-/* This Homework was done with Angela Gabriela Pesina de los Santo´s help, and some other partners that 
+/* This Homework was done with Angela Gabriela Pesina de los Santos´s help, and some other partners that 
 explained to me in detail step by step each part of the homework
 we also used the teacher´s work in base */
 
