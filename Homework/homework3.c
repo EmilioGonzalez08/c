@@ -8,6 +8,7 @@
 int main ()
 
 {
+	printf("write your string here: \n");
 
 int c, number = FALSE, parenthesis = FALSE, quotes = FALSE;
 while ((c = getchar()) != EOF)
