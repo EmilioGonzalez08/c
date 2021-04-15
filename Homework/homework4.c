@@ -14,7 +14,7 @@ stack<int> res;
 
 char line[1001];
 
-/// Convert from car to integer number
+/// Convert from char to integer number
 int convert(int a, int b) {
 
     int n = 0;
