@@ -1,9 +1,9 @@
 /// this homework was done with Francisco Sanchez's help.
-#include<cstdio>
-#include<cstdlib>
-#include<cstring>
-#include<cctype>
-#include<string>
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#include<ctype.h>
+#include<string.h>
 #include<stack>
 
 using namespace std;
@@ -157,6 +157,9 @@ void decode() {
 }
 
 int main() {
+	{
+		printf("Write your operation here:\n");
+	}
 
     /// Read the expresion
     gets(line);
