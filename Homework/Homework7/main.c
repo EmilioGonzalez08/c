@@ -139,7 +139,7 @@ void registrar(){
     scanf("%s", user);
     
      do{
-        printf("\nType 0 (False) and 1 (True) for the days that the employee will work\nFor example: 0 1 1 0 1 1 0\nThere must be at least one 1\n");
+        printf("\nType 0 (False) and 1 (True) for the days that the employee will work\nFor example: 0 1 1 0 1 1 0\nThere must be at least one 1\n Please, use spaces between the numbers\n");
         printf("Make sure to write 7 numbers\n");
         printf("Sun Mon Tue Wed Thu Fri Sat\n");
         scanf("%d %d %d %d %d %d %d", &domingo, &lunes, &martes, &miercoles, &jueves, &viernes, &sabado);
