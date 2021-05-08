@@ -1,0 +1,66 @@
+#include <stdio.h>
+
+int main(void)
+{
+  int opc, opc2, opc3;
+  do{
+      printf("BIENVENIDO");
+      printf("\nElige estacion: \n\n");
+      printf("1. Verano\n");
+      printf("2. Invierno\n");
+      printf("3. Otoño\n");
+      printf("4. Primavera\n");
+      printf("5. Salir\n");
+      scanf("%d",&opc);
+      switch(opc){
+          case 1:
+          printf("\n\n1. Mujer formal\n\n2. Mujer Informal\n\n3. Hombre Formal\n\n4. Hombre Informal\n\n");
+          scanf("%d", &opc2);
+          switch(opc2){
+              case 1:
+              printf("\n\nPodrias usar:\nCamisa azúl con rayas blancas con pantalones blancos acompañada de un cinturón, bolso de mano, y tacones tipo Mary-Janes cafés.\n\n");
+              break;
+              case 2:
+              printf("\n\nPodrias usar:\nBlusa de manga corta color vino con bolso de mano y falda media de mezclilla del mismo color, acompañado de loafers negros con diseño de preferencia\n\n");
+              break;
+              case 3:
+              printf("\n\nPodrias usar:\nCamisa blanca semi abierta, pantalón beige,  con zapatos cafés, y cinturón del mismo color.\n\n");
+              break;
+              case 4:
+              printf("\n\nPodrias usar:\nPlayera negra con jeans ajustados y  tenis blancos. Puedes complementar con un reloj plateado.\n\n");
+              break;
+          }
+          break;
+          case 2:
+          printf("\n\n1. Mujer formal\n\n2. Mujer Informal\n\n3. Hombre Formal\n\n4. Hombre Informal\n\n");
+          scanf("%d", &opc3);
+          switch(opc3){
+              case 1:
+              printf("\n\nPodrias usar:\nTop blanco acompañado de un chaleco blanco con un blazer negro que combine con un pantalon café, zapatillas blancas y un bolsillo de mano negro.\n\n");
+              break;
+              case 2:
+              printf("\n\nPodrias usar:\nUn slouchy de mezclilla con un top negro y un abrigo blanco que combine con unas zapatillas blancas.\n\n");
+              break;
+              case 3:
+              printf("\n\nPodrias usar:\nUna camisa negra con unos pantalones chinos color negro, que combinen con un abrigo gris y unos zapatos negros con un reloj en la muñeca.\n\n");
+              break;
+              case 4:
+              printf("\n\nPodrias usar:\nUnos jeans de mezclilla con unos zapatos blancos que combinen con una camisa y chamarra negra.\n\n");
+              break;
+          }
+          break;
+          case 3:
+          printf("Te puede interesar un vestido color negro liso y una bolsa de mano color blanco, tus aretes color plata"); 
+          break;
+          case 4:
+          printf("Camisa azúl con rayas blancas con pantalones blancos acompañada de un cinturón, bolso de mano, y tacones tipo Mary-Janes cafés."); 
+          break;
+          case 5:
+          break;
+          default:
+          printf("la opcion que coloco es incorrecta ");
+          break;
+      }
+  }while(opc != 5);
+  return 0;
+}
