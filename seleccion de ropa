@@ -2,7 +2,7 @@
 
 int main(void)
 {
-  int opc, opc2, opc3, opc4;
+  int opc, opc2, opc3, opc4, opc5;
   do{
       printf("BIENVENIDO");
       printf("\nElige estacion: \n\n");
@@ -68,7 +68,21 @@ int main(void)
           }
           break;
           case 4:
-          printf("\n\nCamisa azúl con rayas blancas con pantalones blancos acompañada de un cinturón, bolso de mano, y tacones tipo Mary-Janes cafés.\n\n"); 
+          printf("\n\n1. Mujer formal\n\n2. Mujer Informal\n\n3. Hombre Formal\n\n4. Hombre Informal\n\n");
+          scanf("%d", &opc5);
+          switch(opc5){
+              case 1:
+              printf("\n\nPodrias usar:\nOpta por colores sólidos, un conjunto de falda y blazer te quedarían perfectos para esta ocasión importante, acompañados con tus plataformas de un color que contraste, siempre con seguridad al caminar");
+              case 2:
+              printf("\n\nPodrias usar:\nLa blusas florales serán tu mejor aliado, combianlo con un jean pegado al cuerpo y unos flats del mismo color de tu blusa\n\n");
+              break;
+              case 3:
+              printf("\n\nPodrias usar:\nUn saco será tu prenda más llamativa, opta por un color conservador paero diferente, puede ser un volor vino. Puedes usar un pantalón de vestir o jeans negros, ¡el saco siempre te hace ver elegante! \n\n");
+              break;
+              case 4:
+              printf("\n\nPodrias usar:\nOpta por algo simple como una camisa de botones con estampado o lisa, combinalo con tus jeans negros y tus tennis favoritos, ¡simple pero fabuloso!\n\n");
+              break; 
+          }
           break;
           case 5:
           break;
