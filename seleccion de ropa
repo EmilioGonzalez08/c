@@ -2,7 +2,7 @@
 
 int main(void)
 {
-  int opc, opc2, opc3;
+  int opc, opc2, opc3, opc4;
   do{
       printf("BIENVENIDO");
       printf("\nElige estacion: \n\n");
@@ -50,10 +50,25 @@ int main(void)
           }
           break;
           case 3:
-          printf("Te puede interesar un vestido color negro liso y una bolsa de mano color blanco, tus aretes color plata"); 
+          printf("\n\n1. Mujer formal\n\n2. Mujer Informal\n\n3. Hombre Formal\n\n4. Hombre Informal");
+          scanf("%d", &opc4);
+          switch(opc4){
+             case 1:
+              printf("\n\nPodrias usar:\nTe puede interesar un vestido color negro liso y una bolsa de mano color blanco, tus aretes color plata. \n\n");
+              break;
+              case 2:
+              printf("\n\nPodrias usar:\nLas botas altas forma parte de la Moda de otoño, por lo que unas botas negras altas, una bufanda color beige, unos jeans y un cardigan negro puede ser tu opción.\n\n");
+              break;
+              case 3:
+              printf("\n\nPodrias usar:\nel hombre en otoño puede vestir unos pantalones chinos color café oscuro, una camisa blanca y unos zapatos negros de vestir, sin duda la mejor opción \n\n");
+              break;
+              case 4:
+              printf("\n\nPodrias usar:\nUn pantalón color vino, unos tenis tipo converse lisos blancos y una playera color blanca sin estampado, un sueter de color oscuro de tu preferencia para acompañar\n\n");
+              break; 
+          }
           break;
           case 4:
-          printf("Camisa azúl con rayas blancas con pantalones blancos acompañada de un cinturón, bolso de mano, y tacones tipo Mary-Janes cafés."); 
+          printf("\n\nCamisa azúl con rayas blancas con pantalones blancos acompañada de un cinturón, bolso de mano, y tacones tipo Mary-Janes cafés.\n\n"); 
           break;
           case 5:
           break;
