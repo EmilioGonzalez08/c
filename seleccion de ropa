@@ -87,7 +87,7 @@ int main(void)
           case 5:
           break;
           default:
-          printf("la opcion que coloco es incorrecta ");
+          printf("\n\nla opcion que coloco es incorrecta\n\n ");
           break;
       }
   }while(opc != 5);
