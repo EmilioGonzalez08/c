@@ -44,3 +44,43 @@ int outfit_invierno(){
                 break;
             }
 }
+
+int outfit_otonio(){
+    
+    printf("\n\n1. Mujer formal\n\n2. Mujer Informal\n\n3. Hombre Formal\n\n4. Hombre Informal\n\n");
+            scanf("%d", &opc2);
+            switch (opc2)
+            {
+            case 1:
+                printf("\n\nHola %s. Podrias usar:\nTe puede interesar un vestido color negro liso y una bolsa de mano color blanco, tus aretes color plata. \n\n", nombre);
+                break;
+            case 2:
+                printf("\n\nHola %s. Podrias usar:\nLas botas altas forma parte de la Moda de otonio, por lo que unas botas negras altas, una bufanda color beige, unos jeans y un cardigan negro puede ser tu opcion.\n\n", nombre);
+                break;
+            case 3:
+                printf("\n\nHola %s. Podrias usar:\nel hombre en otonio puede vestir unos pantalones chinos color cafe oscuro, una camisa blanca y unos zapatos negros de vestir, sin duda la mejor opcion \n\n", nombre);
+                break;
+            case 4:
+                printf("\n\nHola %s. Podrias usar:\nUn pantalon color vino, unos tenis tipo converse lisos blancos y una playera color blanca sin estampado, un sueter de color oscuro de tu preferencia para acompaniar\n\n", nombre);
+                break;
+            }
+}
+
+int outfit_primavera(){
+    printf("\n\n1. Mujer formal\n\n2. Mujer Informal\n\n3. Hombre Formal\n\n4. Hombre Informal\n\n");
+            scanf("%d", &opc2);
+            switch (opc2)
+            {
+            case 1:
+                printf("\n\nHola %s. Podrias usar:\nOpta por colores solidos, un conjunto de falda y blazer te quedarian perfectos para esta ocasion importante, acompaniados con tus plataformas de un color que contraste, siempre con seguridad al caminar\n\n", nombre);
+            case 2:
+                printf("\n\nHola %s. Podrias usar:\nLa blusas florales seran tu mejor aliado, combianlo con un jean pegado al cuerpo y unos flats del mismo color de tu blusa\n\n", nombre);
+                break;
+            case 3:
+                printf("\n\nHola %s. Podrias usar:\nUn saco sera tu prenda mas llamativa, opta por un color conservador paero diferente, puede ser un volor vino. Puedes usar un pantalon de vestir o jeans negros, ¡el saco siempre te hace ver elegante! \n\n", nombre);
+                break;
+            case 4:
+                printf("\n\nHola %s. Podrias usar:\nOpta por algo simple como una camisa de botones con estampado o lisa, combinalo con tus jeans negros y tus tennis favoritos, ¡simple pero fabuloso!\n\n", nombre);
+                break;
+            }
+}
