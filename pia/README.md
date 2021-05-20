@@ -19,16 +19,12 @@ When selecting a season, it will open another menu where it will ask you the **o
 After selecting this, the program will return an option filtered by cases and the options you chose previously. In case you don't like the recommended option, the program will ask you if you agree with your selection, if you don't, it will throw you a new selection that you probably like more than the previous one.
 
 ## Options
-There are 32 diferent combinations of clothes, an I have the intention to make 64.
+There are 32 diferent combinations of clothes.
 
 
-## Some future improvements
-- Divide in functions 
-- Transfer to a txt file 
-- Better interface
-- Add links to the final options that send you to an image in order to make it more visual
-
-> There are some bugs to be fixed at adding a second name
+> Bibliography 
+https://www.youtube.com/watch?v=Dd6TmDRxbUU&list=PLuaRu05D7vP76AoXlDH3foe09n6CkaRVI&index=23
+https://www.youtube.com/watch?v=GTWrWM1UsnA
 
 ------------
 ###### Emilio Andres Gonzalez Arizmendi  1959504
