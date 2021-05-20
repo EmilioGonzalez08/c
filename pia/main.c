@@ -2,7 +2,7 @@
 
 int main()
 {
-    int opc, opc2; //decalre the variables
+    int opc, opc2; //decalres the variables
     char nombre[50];
     
     printf("\nWrite your first name:\n");
@@ -10,7 +10,7 @@ int main()
     fflush(stdin);
     do
     {
-        printf("------ Welcome %s! ------", nombre); // start the main menu
+        printf("------ Welcome %s! ------", nombre); // starts the main menu
         printf("\nChoose a season: \n\n");
         printf("1. Summer\n");
         printf("2. Winter\n");
