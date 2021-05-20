@@ -22,11 +22,12 @@ After selecting this, the program will return an option filtered by cases and th
 There are 32 diferent combinations of clothes.
 
 ### SELF APPRAISAL
-1: complexity 1 (it is a very simple code, but has some difficulty)
-2: funcionalidad 3 (I haven't found anything to break it)
-3: coding 3 (it's clean and tidy)
-4: storage 1 (limited)
-5: documentation 3 (The video is clear, and I did not make grammar mistakes)
+1. complexity 1 (it is a very simple code, but has some difficulty)
+1. funcionalidad 3 (I haven't found anything to break it)
+1. coding 3 (it's clean and tidy)
+1. storage 1 (limited)
+1. documentation 3 (The video is clear, and I did not make grammar mistakes)
+------------
 CF 11 of 15
 
 > Bibliography 
