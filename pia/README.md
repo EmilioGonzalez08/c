@@ -22,8 +22,12 @@ After selecting this, the program will return an option filtered by cases and th
 There are 32 diferent combinations of clothes.
 
 ### SELF APPRAISAL
-My program is very simple, but it fulfills all the required functionalities, it is organized due to the use of my comments and subroutines dividing the seasons, and I consider that there are no grammatical errors
-
+1: complexity 1 (it is a very simple code, but has some difficulty)
+2: funcionalidad 3 (I haven't found anything to break it)
+3: coding 3 (it's clean and tidy)
+4: storage 1 (limited)
+5: documentation 3 (The video is clear, and I did not make grammar mistakes)
+CF 11 of 15
 
 > Bibliography 
 - https://www.youtube.com/watch?v=Dd6TmDRxbUU&list=PLuaRu05D7vP76AoXlDH3foe09n6CkaRVI&index=23
