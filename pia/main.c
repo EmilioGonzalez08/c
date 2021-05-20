@@ -2,7 +2,7 @@
 
 int main()
 {
-    int opc, opc2;
+    int opc, opc2; //decalre the variables
     char nombre[50];
     
     printf("\nWrite your first name:\n");
@@ -10,7 +10,7 @@ int main()
     fflush(stdin);
     do
     {
-        printf("------ Welcome %s! ------", nombre);
+        printf("------ Welcome %s! ------", nombre); // start the main menu
         printf("\nChoose a season: \n\n");
         printf("1. Summer\n");
         printf("2. Winter\n");
@@ -22,7 +22,7 @@ int main()
         switch (opc)
         {
         case 1:
-            outfit_verano();
+            outfit_verano(); // calling the functions
             break;
         case 2:
             outfit_invierno();
@@ -40,6 +40,6 @@ int main()
             break;
         }
        
-    } while (opc != 5);
+    } while (opc != 5); // loops until the user choose 5
     return 0;
 }
