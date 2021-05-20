@@ -23,8 +23,8 @@ There are 32 diferent combinations of clothes.
 
 
 > Bibliography 
--https://www.youtube.com/watch?v=Dd6TmDRxbUU&list=PLuaRu05D7vP76AoXlDH3foe09n6CkaRVI&index=23
--https://www.youtube.com/watch?v=GTWrWM1UsnA
+- https://www.youtube.com/watch?v=Dd6TmDRxbUU&list=PLuaRu05D7vP76AoXlDH3foe09n6CkaRVI&index=23
+- https://www.youtube.com/watch?v=GTWrWM1UsnA
 
 ------------
 ###### Emilio Andres Gonzalez Arizmendi  1959504
