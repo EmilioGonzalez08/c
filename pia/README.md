@@ -3,6 +3,7 @@
 ## Brief explanation
 
 My PIA is a multi-optional clothing selector that allows you to filter occasion specifications to give you the right outfit at the moment you are.
+https://youtu.be/VfJgwEcSEnc
 
 ## How it works
 1. Introduce your name 
