@@ -3,7 +3,7 @@
 int opc2, alt;
 char nombre[50];
 
-void outfit_verano() {
+void outfit_verano() {  // declarating the functions per season
     
     printf("\n\n1. Formal woman \n\n2. Informal Woman \n\n3. Formal Man \n\n4. Casual Man\n\n");
             scanf("%d", &opc2);
